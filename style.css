@@ -12,12 +12,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: skyblue
+    background: url(images/Beige\ Aesthetic\ Personal\ Brand\ Website\ Blog\ Banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    background: transparent;
+    background: gray;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
@@ -48,6 +50,7 @@ body{
     font-size: 16px;
     color: #fff;
     padding: 20px 45px 20x 20px;
+    text-align: center;
 }
 .input-box input::placeholder {
     color: #fff;
